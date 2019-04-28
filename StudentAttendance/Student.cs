@@ -10,6 +10,14 @@ namespace StudentAttendance
 
         public bool HasSixOrMore()
         {
+            if (Scores.Length >= 6)
+            {
+               return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
